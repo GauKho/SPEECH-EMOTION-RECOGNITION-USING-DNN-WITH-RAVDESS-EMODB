@@ -26,9 +26,7 @@ Analyze and compare performance across different datasets
 
 ### 1️⃣ RAVDESS
 
-24 professional actors (12 male, 12 female)
-
-8 emotion classes:
+24 professional actors (12 male, 12 female), 8 emotion classes:
 
 - Neutral
 - Calm
@@ -45,23 +43,15 @@ Language: English
 
 2️⃣ EMO-DB
 
-10 actors (5 male, 5 female)
+10 actors (5 male, 5 female), 7 emotion classes:
 
-7 emotion classes:
-
-Neutral
-
-Happy
-
-Sad
-
-Angry
-
-Fear
-
-Disgust
-
-Boredom
+- Neutral
+- Happy
+- Sad
+- Angry
+- Fear
+- Disgust
+- Boredom
 
 Audio format: .wav
 
@@ -69,36 +59,5 @@ Language: German
 
 ⚠️ Note: Due to licensing restrictions, datasets must be downloaded manually from their official sources.
 
-🧠 Methodology
-🔹 Data Preprocessing
-
-Audio normalization
-
-Fixed-length trimming or padding
-
-Optional noise reduction
-
-🔹 Feature Extraction
-
-MFCC (Mel-Frequency Cepstral Coefficients)
-
-Chroma Features
-
-Mel Spectrogram
-
-Zero Crossing Rate
-
-Root Mean Square Energy
-
-🔹 Deep Neural Network (DNN)
-
-Fully connected feedforward architecture
-
-ReLU activation functions
-
-Dropout layers for regularization
-
-
-Softmax output layer for multi-class classification
 
 
