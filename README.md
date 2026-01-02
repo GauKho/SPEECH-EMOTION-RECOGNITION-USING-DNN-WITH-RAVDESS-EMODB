@@ -1,6 +1,6 @@
 ﻿# Speech Emotion Recognition Using Deep Neural Networks
  
-📌 Introduction
+## 📌 Introduction
 
 This project focuses on building a Speech Emotion Recognition (SER) system using Deep Neural Networks (DNN). The system aims to automatically identify human emotions from speech signals by learning discriminative acoustic features.
 
@@ -12,7 +12,7 @@ EMO-DB (Berlin Emotional Speech Database)
 
 The project is designed for research and educational purposes and can be extended to real-world applications such as virtual assistants, human–computer interaction, and affective computing.
 
-🎯 Objectives
+## 🎯 Objectives
 
 Develop a Deep Neural Network model for speech emotion recognition
 
@@ -22,28 +22,22 @@ Train and evaluate the model on standard emotional speech datasets
 
 Analyze and compare performance across different datasets
 
-📂 Datasets
-1️⃣ RAVDESS
+##📂 Datasets
+
+### 1️⃣ RAVDESS
 
 24 professional actors (12 male, 12 female)
 
 8 emotion classes:
 
-Neutral
-
-Calm
-
-Happy
-
-Sad
-
-Angry
-
-Fearful
-
-Disgust
-
-Surprised
+- Neutral
+- Calm
+- Happy
+- Sad
+- Angry
+- Fearful
+- Disgust
+- Surprised
 
 Audio format: .wav
 
@@ -106,4 +100,5 @@ Dropout layers for regularization
 
 
 Softmax output layer for multi-class classification
+
 
