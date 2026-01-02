@@ -1,4 +1,4 @@
-﻿#Speech Emotion Recognition Using Deep Neural Networks
+﻿# Speech Emotion Recognition Using Deep Neural Networks
  
 📌 Introduction
 
@@ -106,3 +106,4 @@ Dropout layers for regularization
 
 
 Softmax output layer for multi-class classification
+
